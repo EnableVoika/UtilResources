@@ -1,0 +1,9 @@
+本机是M1芯片，以macosx m1 为例，下载到本地，解压之后，执行一下命令
+
+./ngrok authtoken {你的TOKEN}
+ 检查ngrok正常工作否
+
+./ngrok help
+将需要的端口暴露出去（我这里是8081端口，有个示例项目） 
+
+./ngrok http 8081
